@@ -1,0 +1,38 @@
+﻿<Window x:Class="DatabazovyProjekt2026.PridatTankWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Přidat tank" Height="350" Width="300">
+
+    <Grid Margin="10">
+        <StackPanel>
+
+            <TextBlock Text="Název"/>
+            <TextBox x:Name="tbNazev"/>
+
+            <TextBlock Text="Národnost"/>
+            <TextBox x:Name="tbNarodnost"/>
+
+            <TextBlock Text="Rok výroby"/>
+            <TextBox x:Name="tbRok" PreviewTextInput="OnlyNumbers"/>
+
+            <TextBlock Text="Typ"/>
+            <ComboBox x:Name="cbTyp">
+                <ComboBoxItem Content="Lehký"/>
+                <ComboBoxItem Content="Střední"/>
+                <ComboBoxItem Content="Těžký"/>
+                <ComboBoxItem Content="Stíhač"/>
+                <ComboBoxItem Content="Dělostřelectvo"/>
+            </ComboBox>
+
+            <TextBlock Text="Počet kusů"/>
+            <TextBox x:Name="tbPocet" PreviewTextInput="OnlyNumbers"/>
+
+            <CheckBox x:Name="chbFunkcni" Content="Funkční"/>
+
+            <Button Content="Uložit"
+                    Margin="0,10,0,0"
+                    Click="BtnUlozit_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabazovyProjekt2026", "DatabazovyProjekt2026\DatabazovyProjekt2026.csproj", "{0EDDB00B-1E57-440F-A3EE-46AFC2BC528E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Položky řešení", "Položky řešení", "{73E6DEBC-5D85-E032-7380-14D1E53616C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EDDB00B-1E57-440F-A3EE-46AFC2BC528E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDDB00B-1E57-440F-A3EE-46AFC2BC528E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDDB00B-1E57-440F-A3EE-46AFC2BC528E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDDB00B-1E57-440F-A3EE-46AFC2BC528E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DECD68F-A060-4FBC-86D4-2BAB0E2EF510}
+	EndGlobalSection
+EndGlobal

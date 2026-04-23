@@ -1,0 +1,30 @@
+﻿<Window x:Class="DatabazovyProjekt2026.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Evidence tanků" Height="450" Width="800">
+
+    <Grid Margin="10">
+
+        <Button Content="Přidat tank"
+                Height="30"
+                VerticalAlignment="Top"
+                Click="BtnPridat_Click"/>
+
+        <DataGrid x:Name="dgTanky"
+                  Margin="0,40,0,0"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Název" Binding="{Binding Nazev}" />
+                <DataGridTextColumn Header="Národnost" Binding="{Binding Narodnost}" />
+                <DataGridTextColumn Header="Rok" Binding="{Binding RokVyroby}" />
+                <DataGridTextColumn Header="Typ" Binding="{Binding Typ}" />
+                <DataGridTextColumn Header="Ks" Binding="{Binding PocetKusu}" />
+                <DataGridCheckBoxColumn Header="Funkční" Binding="{Binding JeFunkcni}" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+
+    </Grid>
+</Window>
